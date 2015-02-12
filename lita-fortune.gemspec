@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-fortune'
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.authors       = ['Chris Horton']
   spec.email         = ['hortoncd@gmail.com']
   spec.description   = %q{A Lita handler for fortune cookies.}
   spec.summary       = %q{A Lita handler for fortune cookies.}
-  spec.homepage      = 'https://github.com/hortonce/lita-fortune'
+  spec.homepage      = 'https://github.com/hortoncd/lita-fortune'
   spec.license       = 'Apache 2.0'
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
