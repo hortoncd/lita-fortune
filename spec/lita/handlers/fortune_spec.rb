@@ -9,4 +9,17 @@ describe Lita::Handlers::Fortune, lita_handler: true do
       expect(replies.last).to be_kind_of(String)
     end
   end
+
+
+  describe 'configuration' do
+    before do
+      registry.config.handlers.fortune.path = '/usr/local/bin/fortune'
+    end
+
+    it 'path' do
+      send_command('fortune')
+      expect(replies.last).to be_kind_of(String)
+    end
+  end
+
 end
