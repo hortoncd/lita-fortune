@@ -61,7 +61,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (~> 1.15)
   fakeredis (~> 0.7.0)
   lita-fortune!
   rake (~> 10.0)
