@@ -1,3 +1,4 @@
+require 'fakeredis'
 require 'lita-fortune'
 require 'lita/rspec'
 
