@@ -34,7 +34,7 @@ GEM
     multi_json (1.13.1)
     multipart-post (2.0.0)
     puma (3.11.2)
-    rack (1.6.8)
+    rack (1.6.11)
     rake (10.5.0)
     rb-readline (0.5.5)
     redis (4.0.1)
@@ -68,4 +68,4 @@ DEPENDENCIES
   rspec (~> 3.5)
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
