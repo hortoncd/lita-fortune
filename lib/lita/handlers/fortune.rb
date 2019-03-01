@@ -11,7 +11,7 @@ module Lita
       end
 
       def fortune(response)
-        f = `fortune`
+        f = `/usr/games/fortune`
         f = "No fortune for you!" unless f
         response.reply f
       end
