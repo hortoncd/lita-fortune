@@ -15,10 +15,17 @@ module Lita
         if File.exist?('/usr/bin/fortune')
           cmd = '/usr/bin/fortune'
         elsif
+          cmd = '/usr/local/bin/fortune'
+        elsif
           cmd = '/usr/games/fortune'
         end
-        f = `#{cmd}`
-        f = "No fortune for you!" unless f
+
+        if cmd
+          f = `#{cmd}`
+          f = "No fortune for you!" unless f
+        else
+          f = "No fortune for you!" unless f
+        end
         response.reply f
       end
     end
