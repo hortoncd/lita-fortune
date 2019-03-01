@@ -1,9 +1,0 @@
-machine:
-  timezone:
-    America/Los_Angeles
-  ruby:
-    version: 2.4.2
-dependencies:
-  pre:
-    - gem install bundler --version '~> 1.15.0'
-    - sudo apt-get install fortune-mod
