@@ -10,8 +10,14 @@ module Lita
       def self.default_config(handler_config)
       end
 
+
       def fortune(response)
-        f = `fortune`
+        if File.exist?('/usr/bin/fortune')
+          cmd = '/usr/bin/fortune'
+        elsif
+          cmd = '/usr/games/fortune'
+        end
+        f = `#{cmd}`
         f = "No fortune for you!" unless f
         response.reply f
       end
