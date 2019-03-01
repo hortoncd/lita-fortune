@@ -14,9 +14,9 @@ module Lita
       def fortune(response)
         if File.exist?('/usr/bin/fortune')
           cmd = '/usr/bin/fortune'
-        elsif
+        elsif File.exist?('/usr/local/bin/fortune')
           cmd = '/usr/local/bin/fortune'
-        elsif
+        elsif File.exist?('/usr/games/fortune')
           cmd = '/usr/games/fortune'
         else
           cmd = nil
