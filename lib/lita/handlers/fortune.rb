@@ -18,6 +18,8 @@ module Lita
           cmd = '/usr/local/bin/fortune'
         elsif
           cmd = '/usr/games/fortune'
+        else
+          cmd = nil
         end
 
         if cmd
