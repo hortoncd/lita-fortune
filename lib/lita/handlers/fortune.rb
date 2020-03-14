@@ -10,6 +10,9 @@ module Lita
       def self.default_config(handler_config)
       end
 
+      def run_cmd(cmd)
+        `#{cmd}`
+      end
 
       def fortune(response)
         if File.exist?('/usr/bin/fortune')
@@ -22,8 +25,8 @@ module Lita
           cmd = 'fortune'
         end
 
-        f = `#{cmd}`
-        f = "No fortune for you!" unless f
+        f = run_cmd(cmd)
+        f = "No fortune for you!" if ! f || f.empty?
         response.reply f
       end
     end
