@@ -26,7 +26,7 @@ module Lita
         end
 
         f = run_cmd(cmd)
-        f = "No fortune for you!" if f.empty?
+        f = "No fortune for you!" if ! f || f.empty?
         response.reply f
       end
     end
