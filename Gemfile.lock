@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lita-fortune (0.0.6)
+    lita-fortune (0.0.7)
       i18n (~> 0.9)
       lita (>= 2.0)
 
@@ -38,24 +38,24 @@ GEM
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (1.6.13)
-    rake (12.3.3)
+    rake (13.0.1)
     rb-readline (0.5.5)
     redis (4.0.1)
     redis-namespace (1.7.0)
       redis (>= 3.0.4)
-    rspec (3.7.0)
-      rspec-core (~> 3.7.0)
-      rspec-expectations (~> 3.7.0)
-      rspec-mocks (~> 3.7.0)
-    rspec-core (3.7.1)
-      rspec-support (~> 3.7.0)
-    rspec-expectations (3.7.0)
+    rspec (3.9.0)
+      rspec-core (~> 3.9.0)
+      rspec-expectations (~> 3.9.0)
+      rspec-mocks (~> 3.9.0)
+    rspec-core (3.9.1)
+      rspec-support (~> 3.9.1)
+    rspec-expectations (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-mocks (3.7.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.7.0)
-    rspec-support (3.7.1)
+      rspec-support (~> 3.9.0)
+    rspec-support (3.9.2)
     thor (1.0.1)
     url_mount (0.2.1)
       rack
@@ -64,10 +64,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.15)
+  bundler (> 1.17)
   fakeredis (~> 0.7.0)
   lita-fortune!
-  rake (~> 12.3)
+  rake (>= 12.3.3)
   rspec (~> 3.5)
 
 BUNDLED WITH
