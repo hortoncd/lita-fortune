@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/hortoncd/lita-fortune.svg?style=svg)](https://circleci.com/gh/hortoncd/lita-fortune)
-
 # lita-fortune
+
+![](https://github.com/hortoncd/lita-fortune/workflows/Ruby/badge.svg)
 
 `lita-fortune` is a handler for [Lita](https://github.com/jimmycuadra/lita) that returns a fortune cookie using the \*nix 'fortune' program.
 
