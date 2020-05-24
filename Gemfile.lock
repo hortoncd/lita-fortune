@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lita-fortune (0.0.7)
+    lita-fortune (0.0.8)
       i18n (~> 0.9)
       lita (>= 2.0)
 
