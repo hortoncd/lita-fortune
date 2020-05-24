@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-fortune'
-  spec.version       = '0.0.7'
+  spec.version       = '0.0.8'
   spec.authors       = ['Chris Horton']
   spec.email         = ['hortoncd@gmail.com']
   spec.description   = %q{A Lita handler for fortune cookies.}
