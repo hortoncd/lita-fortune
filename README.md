@@ -1,7 +1,5 @@
 # lita-fortune
 
-![](https://github.com/hortoncd/lita-fortune/workflows/Ruby/badge.svg)
-
 `lita-fortune` is a handler for [Lita](https://github.com/jimmycuadra/lita) that returns a fortune cookie using the \*nix 'fortune' program.
 
 ## Installation
