@@ -4,7 +4,7 @@ PATH
     lita-fortune (0.0.8)
       i18n (~> 0.9)
       lita (>= 2.0)
-      rack (>= 2.1.4, < 2.3.0)
+      rack (>= 2.1.4, < 3.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -39,7 +39,7 @@ GEM
     nio4r (2.5.8)
     puma (6.0.2)
       nio4r (~> 2.0)
-    rack (2.2.6.2)
+    rack (3.0.4.2)
     rake (13.0.6)
     rb-readline (0.5.5)
     redis (4.8.0)
