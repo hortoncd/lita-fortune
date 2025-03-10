@@ -39,7 +39,7 @@ GEM
     nio4r (2.7.3)
     puma (6.4.3)
       nio4r (~> 2.0)
-    rack (3.0.13)
+    rack (3.0.14)
     rake (13.0.6)
     rb-readline (0.5.5)
     redis (4.8.0)
